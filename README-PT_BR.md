@@ -1,17 +1,17 @@
 # PHPCS-Calisthenics-Rules
 
-A [PHP Code Sniffer](http://pear.php.net/package/PHP_CodeSniffer/) standard to verify Object Calisthenics rules.
+Um padrão do [PHP Code Sniffer](http://pear.php.net/package/PHP_CodeSniffer/) para verificar regras Object Calisthenics.
 
 
-## Installation
+## Instalação
 
-If you prefer using [Composer](http://getcomposer.org/) you can easily install Object Calisthenics rules system-wide with the following command:
+Se você quiser usar [Composer](http://getcomposer.org/) você pode facilmente instalar as regras Object Calisthenics com o seguinte comando:
 
     composer global require "object-calisthenics/phpcs-calisthenics-rules=*"
 
-Make sure you have `~/.composer/vendor/bin/` in your PATH.
+Certifique-se de ter `~/.composer/vendor/bin/` em seu PATH.
 
-Or alternatively, include a dependency for `object-calisthenics/phpcs-calisthenics-rules` in your `composer.json` file. For example:
+Ou alternativamente, inclua uma dependência para `object-calisthenics/phpcs-calisthenics-rules` em seu arquivo `composer.json`. Por exemplo:
 
     {
         "require-dev": {
